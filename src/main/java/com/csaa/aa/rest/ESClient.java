@@ -60,7 +60,7 @@ public class ESClient {
         logger.debug("Exiting ESClient.startClient()");
 
 	}
-	private static final String MASTER_NODES = "n01sml101.aap.csaa.pri:9300,n01sml102.aap.csaa.pri:9300,n01sml103.aap.csaa.pri:9300";
+	private static final String MASTER_NODES = "masternode1.test.com,masternode1.test.com,masternode1.test.com";
 	private static final String CLUSTER_NAME = "csaaSearch";
 
 	
